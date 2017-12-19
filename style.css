@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background: #181818;
+    width: 70%;
+    margin: auto;
+}
+p {
+    color: #666;
+}
+header {
+    background: #ededed;
+    height: 130px;
+    padding: 20px;
+}
+.header_left {
+    width: 50%;
+    float: left;
+
+}
+.header_left div {
+   display: inline-block;
+
+}
+.header_left img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+.header_left div h2 {
+    color:rgb(0,0,0);
+    padding-left: 20px;
+}
+
+.header_left div h3 {
+    color: #222;
+    padding-left: 75px;
+}
+
+.header_right {
+    width: 50%;
+    float: left;
+    text-align: right;
+
+}
+
+.header_right div {
+    text-align: left;
+    display: inline-block;
+}
+.cv_content {
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.row {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    overflow: hidden;
+}
+.row:last-child {
+    padding: 0;
+    border: none;
+}
+.row .colum_left {
+    width: 30%;
+    float: left;
+
+}
+.row .colum_left h2 {
+    color: #333;
+    font-size: 20px;
+    font-style: italic;
+}
+.row .colum_right {
+     width: 60%;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.row .colum_right .colum_same {
+    width: 33%;
+    float: left;
+}
+.row .colum_right form input {
+    display: block;
+}
+.row .colum_right form textarea {
+    width: 33%;
+    height: 80px;
+
+}
+
+.row .colum_right form label {
+    display: block;
+}
+.row .colum_right form input[type="submit"] {
+    width: 33%;
+    height: 20px;
+    background-color: teal;
+    color: white;
+    border:2px solid seagreen;
+}
+
+.row .colum_right form input[type="submit"]:hover {
+    background-color: black;
+    color: black;
+}
+h5 {
+    color: #333;
+    
+    
+}h3 {
+    color: #333;
+}
